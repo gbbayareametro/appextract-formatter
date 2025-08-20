@@ -1,0 +1,185 @@
+[
+  {
+    "key": "Menlo and Las Lomitas",
+    "claimed": true,
+    "options": [
+      {
+        "key": "Yes, I am a teacher and/or classified staff employed by the Menlo Park City School District.",
+        "checked": true,
+        "extraData": [
+          {
+            "key": "address",
+            "type": "address",
+            "value": {
+              "city": "Newark",
+              "state": "CA",
+              "street": "39375 Cedar Blvd",
+              "street2": "",
+              "zipCode": "94560"
+            }
+          }
+        ]
+      },
+      {
+        "key": "Yes, I am a teacher and/or classified staff employed by the Las Lomitas School District",
+        "checked": false,
+        "extraData": []
+      },
+      {
+        "key": "Yes, I am a teacher and/or classified staff employed by the Menlo-Atherton High School",
+        "checked": false,
+        "extraData": []
+      },
+      {
+        "key": "No, I an NOT a teacher or classified staff employed by the school districts/schools in this preference category",
+        "checked": false,
+        "extraData": []
+      }
+    ],
+    "multiselectQuestionId": "2578de35-4a70-42f4-91b1-2f8b78cc38e8"
+  },
+  {
+    "key": "San Mateo Co. Schools",
+    "claimed": true,
+    "options": [
+      {
+        "key": "Yes, I am a teacher and/or classified staff employed by the Menlo Park City School District",
+        "checked": true,
+        "extraData": [
+          {
+            "key": "address",
+            "type": "address",
+            "value": {
+              "city": "Newark",
+              "state": "CA",
+              "street": "39375 Cedar Blvd",
+              "street2": "",
+              "zipCode": "94560"
+            }
+          }
+        ]
+      },
+      {
+        "key": "Yes, I am a teacher and/or classified staff employed by the Las Lomitas Elementary School District",
+        "checked": false,
+        "extraData": []
+      },
+      {
+        "key": "Yes, I am a teacher and/or classified staff employed by the Menlo-Atherton High School",
+        "checked": false,
+        "extraData": []
+      },
+      {
+        "key": "Yes, I am a teacher and/or classified staff employed by Tide Academy",
+        "checked": false,
+        "extraData": []
+      },
+      {
+        "key": "Yes, I am a teacher and/or classified staff employed by East Palo Alto Academy",
+        "checked": false,
+        "extraData": []
+      },
+      {
+        "key": "Yes, I am a teacher and/or classified staff employed by Sequoia District Adult School",
+        "checked": false,
+        "extraData": []
+      },
+      {
+        "key": "No, I am NOT a teacher or classified staff at any of the San Mateo County school districts/schools listed above",
+        "checked": false,
+        "extraData": []
+      }
+    ],
+    "multiselectQuestionId": "13659e99-1ba8-4736-9cb2-98cf24d2e236"
+  },
+  {
+    "key": "Ravenswood Schools",
+    "claimed": true,
+    "options": [
+      {
+        "key": "Yes, I am a teacher and/or classified staff employed by the Ravenswood City School District",
+        "checked": false,
+        "extraData": []
+      },
+      {
+        "key": "Yes, I am a teacher and/or classified staff employed by a private nonprofit school, including preschools, within the Ravenswood City School District boundaries",
+        "checked": false,
+        "extraData": []
+      },
+      {
+        "key": "No, I am NOT a teacher or classified staff employed by the Ravenswood City School District or a private nonprofit school or preschool within the Ravenswood City School District boundaries",
+        "checked": true,
+        "extraData": []
+      }
+    ],
+    "multiselectQuestionId": "69a5ab24-8d9f-4c83-975f-3b051f1fe7bf"
+  },
+  {
+    "key": "Foothill-DeAnza Com College Dst",
+    "claimed": true,
+    "options": [
+      {
+        "key": "Yes, I am a teacher and/or classified staff employed by the Foothill-DeAnza Community College District",
+        "checked": false,
+        "extraData": []
+      },
+      {
+        "key": "No, I am NOT a teacher or classified staff employed by the Foothill-DeAnza Community College District",
+        "checked": true,
+        "extraData": []
+      }
+    ],
+    "multiselectQuestionId": "bd07a7d8-2749-48fe-81b9-87423304cfff"
+  },
+  {
+    "key": "Palo Alto Unified School Dst",
+    "claimed": true,
+    "options": [
+      {
+        "key": "Yes, I am a teacher and/or classified staff employed by the Palo Alto Unified School District",
+        "checked": false,
+        "extraData": []
+      },
+      {
+        "key": "No, I am NOT a teacher or classified staff employed by the Palo Alto Unified School District",
+        "checked": true,
+        "extraData": []
+      }
+    ],
+    "multiselectQuestionId": "e78a43cc-3f85-4489-8f60-be70d93dc68d"
+  },
+  {
+    "key": "Mountain View Whisman School Dst",
+    "claimed": true,
+    "options": [
+      {
+        "key": "Yes, I am a teacher and/or classified staff employed by the Mountain View Whisman School District",
+        "checked": false,
+        "extraData": []
+      },
+      {
+        "key": "No, I am NOT a teacher or classified staff employed by the Mountain View Whisman School District",
+        "checked": true,
+        "extraData": []
+      }
+    ],
+    "multiselectQuestionId": "d4a5f2aa-09fb-4e25-99e0-0228b03031e8"
+  },
+  {
+    "key": "Los Altos School District",
+    "claimed": true,
+    "options": [
+      {
+        "key": "Yes, I am a teacher and/or classified staff employed by the Los Altos School District",
+        "checked": false,
+        "extraData": []
+      },
+      {
+        "key": "No, I am NOT a teacher or classified staff employed by the Los Altos District",
+        "checked": true,
+        "extraData": []
+      }
+    ],
+    "multiselectQuestionId": "f2422562-8c6d-40da-9037-2186f1657b54"
+  }
+]
