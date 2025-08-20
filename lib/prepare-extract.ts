@@ -23,7 +23,7 @@ export class ExtractGenerator {
     );
     const applicationData = await queryInterface.executeQuery(
       `SELECT * FROM combined_applications_data`,
-      process.env.DATABASE!,
+      "doorway-datalake",
     );
     this.logger.info(`Retrieved ${applicationData.length} applications`);
     return applicationData;
@@ -35,7 +35,7 @@ export class ExtractGenerator {
     );
     const householdMembers = await queryInterface.executeQuery(
       `SELECT * FROM household_members_no_pii`,
-      process.env.DATABASE!,
+      "doorway-datalake",
     );
     this.logger.info(`Retrieved ${householdMembers.length} household members`);
     return householdMembers;

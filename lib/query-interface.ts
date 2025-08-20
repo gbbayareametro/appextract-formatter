@@ -8,6 +8,7 @@ import {
 import { instance } from "./winston.logger";
 export class QueryInterface {
   private athenaClient: AthenaClient;
+
   logger: typeof instance;
   constructor(client: AthenaClient) {
     this.athenaClient = client;
