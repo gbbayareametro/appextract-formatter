@@ -2,8 +2,10 @@ import { AthenaClient } from "@aws-sdk/client-athena";
 import { Parser } from "@json2csv/plainjs";
 import { configDotenv } from "dotenv";
 import * as fs from "fs";
+
 import { QueryInterface } from "./query-interface";
 import { instance } from "./winston.logger";
+
 export class ExtractGenerator {
   private athenaClient: AthenaClient;
   logger: typeof instance;
@@ -12,11 +14,6 @@ export class ExtractGenerator {
     this.logger = instance;
 
     this.athenaClient = new AthenaClient({
-      credentials: {
-        accessKeyId: process.env.AWS_ACCESS_KEY || "",
-        secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY || "",
-        sessionToken: process.env.AWS_SESSION_TOKEN,
-      },
       region: process.env.AWS_REGION || "us-west-1",
     });
   }
